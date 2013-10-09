@@ -1,6 +1,6 @@
 {
   "name": "xmpp-ftw-wtf",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Unknown stanza plugin for XMPP-FTW",
   "main": "index.js",
   "directories": {
