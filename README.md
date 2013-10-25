@@ -3,7 +3,7 @@ xmpp-ftw-wtf
 
 Unknown incoming stanza plugin for XMPP-FTW.
 
-https://github.com/lloydwatkin/xmpp-ftw.git
+https://github.com/xmpp-ftw/xmpp-ftw.git
 
 If XMPP-FTW receives a stanza which can not be handled by any of the 
 other installed listeners then this plugin will simply push the 
@@ -12,11 +12,11 @@ event.
 
 # More....
 
-See the XMPP-FTW demo repository - https://github.com/lloydwatkin/xmpp-ftw-demo
+See the XMPP-FTW demo repository - https://github.com/xmpp-ftw/xmpp-ftw-demo
 
 # Build status
 
-[![Build Status](https://secure.travis-ci.org/lloydwatkin/xmpp-ftw-wtf.png)](http://travis-ci.org/lloydwatkin/xmpp-ftw-wtf)
+[![Build Status](https://secure.travis-ci.org/xmpp-ftw/xmpp-ftw-wtf.png)](http://travis-ci.org/xmpp-ftw/xmpp-ftw-wtf)
 
 # Install
 
