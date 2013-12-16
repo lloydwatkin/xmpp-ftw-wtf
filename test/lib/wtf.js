@@ -1,5 +1,5 @@
 var should = require('should')
-  , Wtf = require('../../lib/wtf')
+  , Wtf = require('../../index')
   , ltx    = require('ltx')
   , helper = require('../helper')
 
@@ -25,22 +25,22 @@ describe('Wtf', function() {
     })
 
     describe('Handles', function() {
-        
+
         it('Returns true for any stanza', function() {
             wtf.handles(ltx.parse('<iq/>')).should.be.true
         })
-        
+
     })
-    
+
     it('Handles incoming messages', function(done) {
         var unknownStanza = helper.getStanza('unknown-stanza')
-        
+
         socket.on('xmpp.wtf.push', function(stanza) {
             stanza.should.equal(unknownStanza.toString())
             done()
         })
         wtf.handle(unknownStanza).should.be.true
-       
+
     })
-    
+
 })
