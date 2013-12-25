@@ -1,5 +1,8 @@
-var should = require('should')
-  , Wtf = require('../../index')
+'use strict';
+
+/* jshint -W030 */
+
+var Wtf = require('../../index')
   , ltx    = require('ltx')
   , helper = require('../helper')
 
