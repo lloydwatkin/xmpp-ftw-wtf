@@ -6,13 +6,15 @@ var Wtf = require('../../index')
   , ltx    = require('ltx')
   , helper = require('../helper')
 
+require('should')
+
 describe('Wtf', function() {
 
     var wtf, socket, xmpp, manager
 
     before(function() {
-        socket = new helper.Eventer()
-        xmpp = new helper.Eventer()
+        socket = new helper.SocketEventer()
+        xmpp = new helper.XmppEventer()
         manager = {
             socket: socket,
             client: xmpp,
@@ -24,6 +26,12 @@ describe('Wtf', function() {
             }
         }
         wtf = new Wtf()
+        wtf.init(manager)
+    })
+
+    beforeEach(function() {
+        socket.removeAllListeners()
+        xmpp.removeAllListeners()
         wtf.init(manager)
     })
 
