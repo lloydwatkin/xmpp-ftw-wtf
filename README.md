@@ -17,6 +17,8 @@ See the XMPP-FTW demo repository - https://github.com/xmpp-ftw/xmpp-ftw-demo
 # Build status
 
 [![Build Status](https://secure.travis-ci.org/xmpp-ftw/xmpp-ftw-wtf.png)](http://travis-ci.org/xmpp-ftw/xmpp-ftw-wtf)
+[![Dependency Status](https://david-dm.org/xmpp-ftw/xmpp-ftw-wtf.png)](https://david-dm.org/xmpp-ftw/xmpp-ftw-wtf)
+[![Coverage Status](https://img.shields.io/coveralls/xmpp-ftw/xmpp-ftw-wtf.svg)](https://coveralls.io/r/xmpp-ftw/xmpp-ftw-wtf?branch=master
 
 # Install
 
