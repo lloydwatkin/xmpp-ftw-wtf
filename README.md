@@ -1,6 +1,8 @@
 xmpp-ftw-wtf
 =================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xmpp-ftw/xmpp-ftw-wtf.svg)](https://greenkeeper.io/)
+
 Unknown incoming stanza plugin for XMPP-FTW.
 
 https://github.com/xmpp-ftw/xmpp-ftw.git
